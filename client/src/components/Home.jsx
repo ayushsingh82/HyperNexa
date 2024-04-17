@@ -18,7 +18,7 @@ function Home() {
         <div className='border rouded-tl-3xl mt-[100px] mb-[50px]'>
 
           <div>
-            <h1 className='font-medium text-4xl mt-[50px]'>Onboarding developers to build on Chainlink!</h1>
+            <h1 className='font-medium text-4xl mt-[50px]'>Onboarding developers to build on Chainlink! little change</h1>
             <p className='text-xl mt-[40px] '>Do not worry about gas, just deploy!</p>
           </div>
 
