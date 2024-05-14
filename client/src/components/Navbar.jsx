@@ -14,13 +14,13 @@ function Navbar() {
               <a href='/'>Home</a>
             </li>
             <li>
-              <a href='/contract-details'>Crosschain</a>
+              <a href='/state-machine'>StateMachine</a>
             </li>
             <li>
-              <a href='/vrf'>VRF</a>
+              <a href='/zkpsm'>ZKPSM</a>
             </li>
             <li>
-              <a href='/automation'>Automation</a>
+              <a href='/architecture'>Architecture</a>
             </li>
           </ul>
         </div>

@@ -6,6 +6,9 @@ import {createBrowserRouter,RouterProvider,createRoutesFromElements} from 'react
 import { Route } from 'react-router-dom'
 import Home from './components/Home.jsx'
 import Navbar from './components/Navbar.jsx'
+import Statemachine from './components/Statemachine.jsx'
+import ZKPSM from './components/ZKPSM.jsx'
+import Architecture from './components/Architecture.jsx'
 
 
 import '@rainbow-me/rainbowkit/styles.css';
@@ -37,6 +40,9 @@ const router = createBrowserRouter(
   createRoutesFromElements(
     <Route>
     <Route path='/' element={<Home/>}/>
+    <Route path='/state-machine' element={<Statemachine/>}/>
+    <Route path='/zkpsm' element={<ZKPSM/>}/>
+    <Route path='/architecture' element={<Architecture/>}/>
     </Route>
   )
 )
