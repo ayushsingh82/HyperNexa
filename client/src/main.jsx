@@ -1,5 +1,6 @@
 import React from 'react'
 import ReactDOM from 'react-dom/client'
+import {NextUIProvider} from '@nextui-org/react'
 import App from './App.jsx'
 import './index.css'
 import {createBrowserRouter,RouterProvider,createRoutesFromElements} from 'react-router-dom'
@@ -53,6 +54,7 @@ const queryClient = new QueryClient();
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
+  <NextUIProvider>
   <WagmiProvider config={config}>
   <QueryClientProvider client={queryClient}>
     <RainbowKitProvider>
@@ -60,7 +62,10 @@ ReactDOM.createRoot(document.getElementById('root')).render(
    <RouterProvider router={router}/>
     </RainbowKitProvider>
   </QueryClientProvider>
-</WagmiProvider>
-<Footer/>
+  </WagmiProvider>
+  <Footer/>
+    </NextUIProvider>
   </React.StrictMode>,
 )
+
+
