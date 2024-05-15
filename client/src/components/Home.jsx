@@ -1,8 +1,12 @@
 import React from 'react'
 import {Accordion, AccordionItem} from "@nextui-org/react";
+import {Card, CardHeader, CardBody, CardFooter, Avatar, Button} from "@nextui-org/react";
 
 
 function Home() {
+
+  const [isFollowed, setIsFollowed] = React.useState(false);
+
   const defaultContent =
     "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.";
 
@@ -15,8 +19,48 @@ function Home() {
             <p className='font-semibold text-2xl mt-[20px]'>⚡Importance of privacy and security in decentralized system!</p>
           </div>
           <div>
-            <img className="h-[300px] w-[500px] border rounded-tr-3xl rounded-bl-3xl shadow-lg
-    shadow-gray-500" src='https://images.unsplash.com/photo-1639322537504-6427a16b0a28?q=80&w=3132&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D' />
+          <Card className="max-w-[340px] bg-slate-900">
+          <CardHeader className="justify-between">
+            <div className="flex gap-5">
+              <Avatar isBordered radius="full" size="md" src="https://nextui.org/avatars/avatar-1.png" />
+              <div className="flex flex-col gap-1 items-start justify-center">
+                <h4 className="text-small font-semibold leading-none text-white">HyperNexa</h4>
+                <h5 className="text-small tracking-tight text-default-400">@hypernexa</h5>
+              </div>
+            </div>
+            <Button
+              className={isFollowed ? "bg-transparent text-foreground border-default-200" : ""}
+              color="primary"
+              radius="full"
+              size="sm"
+              variant={isFollowed ? "bordered" : "solid"}
+              onPress={() => setIsFollowed(!isFollowed)}
+            >
+              {isFollowed ? "Unfollow" : "Follow"}
+            </Button>
+          </CardHeader>
+          <CardBody className="px-3 py-0 text-small text-default-400">
+            <p>
+              Frontend developer and UI/UX enthusiast. Join me on this coding adventure!
+            </p>
+            <span className="pt-2">
+              #FrontendWithZoey 
+              <span className="py-2" aria-label="computer" role="img">
+                💻
+              </span>
+            </span>
+          </CardBody>
+          <CardFooter className="gap-3">
+            <div className="flex gap-1">
+              <p className="font-semibold text-default-400 text-small">4</p>
+              <p className=" text-default-400 text-small">Following</p>
+            </div>
+            <div className="flex gap-1">
+              <p className="font-semibold text-default-400 text-small">97.1K</p>
+              <p className="text-default-400 text-small">Followers</p>
+            </div>
+          </CardFooter>
+        </Card>
           </div>
         </div>
 
@@ -94,3 +138,5 @@ function Home() {
 }
 
 export default Home
+
+//  <img className="h-[300px] w-[500px] border rounded-tr-3xl rounded-bl-3xl shadow-lg shadow-gray-500" src='https://images.unsplash.com/photo-1639322537504-6427a16b0a28?q=80&w=3132&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D' />
