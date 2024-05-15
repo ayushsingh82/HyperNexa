@@ -6,7 +6,7 @@ function Navbar() {
   return (
     <navbar>
       <div className='flex flex-row justify-between'>
-        <h1 className='font-bold text-4xl'>D'Buddy</h1>
+        <h1 className='font-bold text-4xl'>HyperNexa⚡</h1>
 
         <div>
           <ul className='flex flex-row gap-x-10 font-semibold text-xl'>

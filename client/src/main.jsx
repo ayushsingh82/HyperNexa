@@ -9,6 +9,7 @@ import Navbar from './components/Navbar.jsx'
 import Statemachine from './components/Statemachine.jsx'
 import ZKPSM from './components/ZKPSM.jsx'
 import Architecture from './components/Architecture.jsx'
+import Footer from './components/Footer.jsx'
 
 
 import '@rainbow-me/rainbowkit/styles.css';
@@ -60,5 +61,6 @@ ReactDOM.createRoot(document.getElementById('root')).render(
     </RainbowKitProvider>
   </QueryClientProvider>
 </WagmiProvider>
+<Footer/>
   </React.StrictMode>,
 )
