@@ -3,10 +3,10 @@ import React from 'react'
 function ZKPSM() {
   return (
     <div>
-    <h1>HEloo pagal</h1>
-    <p> build good </p>
-    <p> build zkpsm</p>
-    <p> build zkspm</p>
+    <div className='mt-[45px]'>
+    <img src='zkpsm.png' alt='zkpsm diagram'/> 
+    </div>
+      
     </div>
   )
 }

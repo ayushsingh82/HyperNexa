@@ -5,7 +5,7 @@ function Statemachine() {
     <div>
      
     <div className='mt-[45px]'>
-    <img src='finalisedstatemachine.png' alt='state machine'/> 
+    <img src='statemachine.png' alt='state machine'/> 
     </div>
       
     </div>
