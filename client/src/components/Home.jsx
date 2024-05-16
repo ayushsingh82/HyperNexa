@@ -63,7 +63,7 @@ function Home() {
           </div>
         </div>
 
-        <div className='border rounded-tl-3xl mt-[100px] mb-[50px]'>
+        <div className='border rounded-tl-3xl mt-[100px] mb-[50px] border-transparent'>
 
           <div>
             <h1 className='font-medium text-4xl mt-[50px]'>Onboarding developers to build on Chainlink! little change</h1>
@@ -80,7 +80,7 @@ function Home() {
               </button>
             </div>
             <div>
-            <img className="h-[300px] w-[500px] border rounded-tr-3xl rounded-bl-3xl shadow-lg ml-[55px] shadow-gray-500" src='https://images.unsplash.com/photo-1639322537504-6427a16b0a28?q=80&w=3132&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D' />
+            <img className="h-[300px] w-[500px] border rounded-tr-3xl rounded-bl-3xl shadow-lg ml-[25px] shadow-gray-500" src='https://th.bing.com/th/id/OIP._ape7tvKXiTyXDVEypOcDwHaDt?w=800&h=400&rs=1&pid=ImgDetMain' />
           </div>
             </div>
 
@@ -177,12 +177,12 @@ function Home() {
         </div>
       </div>
 
-<div className='mt-[45px]'>
+<div className='mt-[100px]'>
 <div class="font-[sans-serif] text-[#333] ">
     <div class="max-w-5xl mx-auto">
       <div class="text-center">
         <h2 class="text-4xl font-bold mb-4 ">Pricing</h2>
-        <p class="text-sm text-gray-500">Change your plant according your needs</p>
+        <p class="text-sm text-gray-500">Change your plan according your needs</p>
       </div>
       <div class="grid lg:grid-cols-3 sm:grid-cols-2 gap-8 mt-12 max-sm:max-w-sm max-sm:mx-auto">
         <div class="border rounded-md p-6">
@@ -323,10 +323,63 @@ function Home() {
   </div>
 
 
+  <div className='flex flex-row gap-x-2 mt-[100px]'>
+  <div className="bg-gray-800 shadow-[0_2px_15px_-6px_rgba(0,0,0,0.2)] p-6 w-full max-w-sm rounded-lg font-[sans-serif] overflow-hidden mx-auto mt-4">
+    <div className="flex items-center">
+      <h3 className="text-3xl font-bold text-white flex-1">Secure Identity Verification</h3>
+      <div className="bg-gray-900 w-14 h-14 flex items-center justify-center rounded-full cursor-pointer">
+        <svg xmlns="http://www.w3.org/2000/svg" width="32px" viewBox="0 0 24 24">
+          <g className="fill-yellow-400">
+            <circle cx="12" cy="12" r="5" />
+            <path fill="#f2b108"
+              d="M21 13h-1a1 1 0 0 1 0-2h1a1 1 0 0 1 0 2zM4 13H3a1 1 0 0 1 0-2h1a1 1 0 0 1 0 2zm13.66-5.66a1 1 0 0 1-.66-.29 1 1 0 0 1 0-1.41l.71-.71a1 1 0 1 1 1.41 1.41l-.71.71a1 1 0 0 1-.75.29zM5.64 19.36a1 1 0 0 1-.71-.29 1 1 0 0 1 0-1.41l.71-.66a1 1 0 0 1 1.41 1.41l-.71.71a1 1 0 0 1-.7.24zM12 5a1 1 0 0 1-1-1V3a1 1 0 0 1 2 0v1a1 1 0 0 1-1 1zm0 17a1 1 0 0 1-1-1v-1a1 1 0 0 1 2 0v1a1 1 0 0 1-1 1zM6.34 7.34a1 1 0 0 1-.7-.29l-.71-.71a1 1 0 0 1 1.41-1.41l.71.71a1 1 0 0 1 0 1.41 1 1 0 0 1-.71.29zm12.02 12.02a1 1 0 0 1-.7-.29l-.66-.71A1 1 0 0 1 18.36 17l.71.71a1 1 0 0 1 0 1.41 1 1 0 0 1-.71.24z"
+              data-original="#f2b108" />
+          </g>
+        </svg>
+      </div>
+    </div>
+    <p className="text-sm text-white my-8">Proving identity without disclosing personal information</p>
+    <div className="flex items-center">
+      <h3 className="text-lg font-bold text-white flex-1">Dark theme</h3>
+      <label className="relative cursor-pointer">
+        <input type="checkbox" className="sr-only peer" checked />
+        <div
+          className="w-11 h-3 flex items-center bg-gray-300 rounded-full peer peer-checked:after:translate-x-full after:absolute after:left-0 peer-checked:after:-left-1 after:bg-gray-300 peer-checked:after:bg-[#007bff] after:border after:border-gray-300 peer-checked:after:border-[#007bff] after:rounded-full after:h-6 after:w-6 after:transition-all peer-checked:bg-[#007bff]">
+        </div>
+      </label>
+    </div>
+  </div>
+
+  <div className="bg-gray-800 shadow-[0_2px_15px_-6px_rgba(0,0,0,0.2)] p-6 w-full max-w-sm rounded-lg font-[sans-serif] overflow-hidden mx-auto mt-4">
+    <div className="flex items-center">
+      <h3 className="text-3xl font-bold text-white flex-1">Privacy-Preserving Transactions</h3>
+      <div className="bg-gray-900 w-14 h-14 flex items-center justify-center rounded-full cursor-pointer">
+        <svg xmlns="http://www.w3.org/2000/svg" width="32px" viewBox="0 0 24 24">
+          <g className="fill-yellow-400">
+            <circle cx="12" cy="12" r="5" />
+            <path fill="#f2b108"
+              d="M21 13h-1a1 1 0 0 1 0-2h1a1 1 0 0 1 0 2zM4 13H3a1 1 0 0 1 0-2h1a1 1 0 0 1 0 2zm13.66-5.66a1 1 0 0 1-.66-.29 1 1 0 0 1 0-1.41l.71-.71a1 1 0 1 1 1.41 1.41l-.71.71a1 1 0 0 1-.75.29zM5.64 19.36a1 1 0 0 1-.71-.29 1 1 0 0 1 0-1.41l.71-.66a1 1 0 0 1 1.41 1.41l-.71.71a1 1 0 0 1-.7.24zM12 5a1 1 0 0 1-1-1V3a1 1 0 0 1 2 0v1a1 1 0 0 1-1 1zm0 17a1 1 0 0 1-1-1v-1a1 1 0 0 1 2 0v1a1 1 0 0 1-1 1zM6.34 7.34a1 1 0 0 1-.7-.29l-.71-.71a1 1 0 0 1 1.41-1.41l.71.71a1 1 0 0 1 0 1.41 1 1 0 0 1-.71.29zm12.02 12.02a1 1 0 0 1-.7-.29l-.66-.71A1 1 0 0 1 18.36 17l.71.71a1 1 0 0 1 0 1.41 1 1 0 0 1-.71.24z"
+              data-original="#f2b108" />
+          </g>
+        </svg>
+      </div>
+    </div>
+    <p className="text-sm text-white my-8">Cocealing transaction details while proving validity</p>
+    <div className="flex items-center">
+      <h3 className="text-lg font-bold text-white flex-1">Dark theme</h3>
+      <label className="relative cursor-pointer">
+        <input type="checkbox" className="sr-only peer" checked />
+        <div
+          className="w-11 h-3 flex items-center bg-gray-300 rounded-full peer peer-checked:after:translate-x-full after:absolute after:left-0 peer-checked:after:-left-1 after:bg-gray-300 peer-checked:after:bg-[#007bff] after:border after:border-gray-300 peer-checked:after:border-[#007bff] after:rounded-full after:h-6 after:w-6 after:transition-all peer-checked:bg-[#007bff]">
+        </div>
+      </label>
+    </div>
+  </div>
+</div>
 
 
 
-<div class="my-6">
+<div class="mt-[100px]">
             <div class="grid sm:grid-cols-2 items-center gap-16 p-8 mx-auto max-w-4xl bg-white shadow-[0_2px_10px_-3px_rgba(6,81,237,0.3)] rounded-md text-[#333] font-[sans-serif]">
                 <div>
                     <h1 class="text-3xl font-extrabold">Let's Talk</h1>
@@ -345,7 +398,7 @@ function Home() {
                                 </div>
                                 <a href="javascript:void(0)" class="text-[#007bff] text-sm ml-3">
                                     <small class="block">Mail</small>
-                                    <strong>info@example.com</strong>
+                                    <strong>hypernexa@gmail.com</strong>
                                 </a>
                             </li>
                         </ul>
