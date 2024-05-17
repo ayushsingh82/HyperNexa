@@ -10,14 +10,7 @@ Solution:
 
 To overcome the challenges of scalability, privacy, and efficiency in blockchain networks, we propose the development of a Zero-Knowledge Provable State Machine (ZKPSM) framework. This solution leverages TowerABCL, a high-performance blockchain framework implemented in the Rust programming language, and integrates the SP1 architecture for hardware-level optimizations. The ZKPSM framework utilizes advanced cryptographic techniques, including zero-knowledge proofs (ZKPs), to ensure the privacy and confidentiality of state machine execution while enabling efficient verification of state transitions. By leveraging efficient hardware architectures and cryptographic primitives, the ZKPSM framework enables the creation of scalable, privacy-preserving, and verifiable state machines on blockchain networks, paving the way for the development of dApps with enhanced performance and security features.                                                                                                                                                                                     
 ___
-
-#flow Chart
-
-![image](https://github.com/ayushsingh82/Craft-Celestia/assets/121667116/261f4766-8b5b-4b2e-b2aa-c018be9b05e3)
-___
-___
 #zero knowledge provable state machine 
-
 
 ![image](https://github.com/ayushsingh82/Craft-Celestia/assets/121667116/002339bf-e0e3-486d-a147-989e22fe2775)
 ___
