@@ -9,7 +9,6 @@ import Home from './components/Home.jsx'
 import Navbar from './components/Navbar.jsx'
 import Statemachine from './components/Statemachine.jsx'
 import ZKPSM from './components/ZKPSM.jsx'
-import Architecture from './components/Architecture.jsx'
 import Footer from './components/Footer.jsx'
 
 
@@ -44,7 +43,6 @@ const router = createBrowserRouter(
     <Route path='/' element={<Home/>}/>
     <Route path='/state-machine' element={<Statemachine/>}/>
     <Route path='/zkpsm' element={<ZKPSM/>}/>
-    <Route path='/architecture' element={<Architecture/>}/>
     </Route>
   )
 )

@@ -4,7 +4,7 @@ function ZKPSM() {
   return (
     <div>
     <div className='mt-[45px]'>
-    <img src='zkpsm.png' alt='zkpsm diagram'/> 
+    <img src='zkpsm2.png' alt='zkpsm diagram'/> 
     </div>
 
     <div class="max-w-6xl mx-auto text-[#333] font-[sans-serif] mt-[100px]">
@@ -56,7 +56,7 @@ function ZKPSM() {
     </div>
     <p className="text-sm text-white my-8">Lorem ipsum dolor sit amet, consectetur ipsum dolor sit amet, consectetur Lorem ipsum dolor sit amet, consectetur ipsum.</p>
     <div className="flex items-center">
-      <h3 className="text-lg font-bold text-white flex-1">Dark theme</h3>
+      <h3 className="text-lg font-bold text-white flex-1">Learn More</h3>
       <label className="relative cursor-pointer">
         <input type="checkbox" className="sr-only peer" checked />
         <div
@@ -82,7 +82,7 @@ function ZKPSM() {
     </div>
     <p className="text-sm text-white my-8">Lorem ipsum dolor sit amet, consectetur ipsum dolor sit amet, consectetur Lorem ipsum dolor sit amet, consectetur ipsum.</p>
     <div className="flex items-center">
-      <h3 className="text-lg font-bold text-white flex-1">Dark theme</h3>
+      <h3 className="text-lg font-bold text-white flex-1">Learn More</h3>
       <label className="relative cursor-pointer">
         <input type="checkbox" className="sr-only peer" checked />
         <div

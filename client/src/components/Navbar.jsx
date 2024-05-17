@@ -19,9 +19,6 @@ function Navbar() {
             <li>
               <a href='/zkpsm'>ZKPSM</a>
             </li>
-            <li>
-              <a href='/architecture'>Architecture</a>
-            </li>
           </ul>
         </div>
         <ConnectButton chainStatus={'none'} showBalance={false} />
