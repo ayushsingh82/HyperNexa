@@ -14,8 +14,25 @@ function Home() {
       <section className=''>
         <div className='flex flex-row justify-between mt-[100px]'>
           <div>
-            <h1 className='font-bold text-3xl'>Exploring Zero-Knowledge Proof System (ZKPSM)</h1>
-            <p className='font-semibold text-2xl mt-[20px]'>⚡Importance of privacy and security in decentralized system!</p>
+            <h1 className='font-semibold text-4xl h-[70px] mt-[55px] ml-[20px] p-[5px] border border-transparent rounded-xl 
+            bg-gradient-to-l
+                from-blue-600
+                via-blue-700
+                to-blue-800
+                text-transparent
+                bg-clip-text   
+                hover:scale-110 transition-all duration-500 ease-in-out'>
+               <span className='shadow-md shadow-blue-300 '> Revolutionizing Blockchain with </span></h1>
+               <h1 className='font-semibold text-4xl h-[70px] mt-[10px] ml-[20px] p-[5px] border border-transparent rounded-xl 
+            bg-gradient-to-l
+            from-blue-600
+            via-blue-700
+            to-blue-800
+                text-transparent
+                bg-clip-text   
+                hover:scale-110 transition-all duration-500 ease-in-out'>
+               <span className='shadow-md shadow-blue-300 '> Zero-Knowledge Proofs</span></h1>
+            <p className='font-semibold text-2xl mt-[30px]'>⚡Achieve Unparalleled Privacy and Scalability for Your Decentralized Applications!</p>
           </div>
           <div>
             <Card className="max-w-[340px] bg-slate-900">
@@ -40,10 +57,10 @@ function Home() {
               </CardHeader>
               <CardBody className="px-3 py-0 text-small text-default-400">
                 <p>
-                  Frontend developer and UI/UX enthusiast. Join me on this coding adventure!
+                Revolutionizing decentralized applications with Zero-Knowledge Provable State Machines, ensuring unparalleled privacy, efficiency, and scalability on blockchain networks
                 </p>
                 <span className="pt-2">
-                  #FrontendWithZoey 
+                  #CelestiaRevolution 
                   <span className="py-2" aria-label="computer" role="img">
                     💻
                   </span>
@@ -66,15 +83,22 @@ function Home() {
         <div className='border rounded-tl-3xl mt-[100px] mb-[50px] border-transparent'>
 
           <div>
-            <h1 className='font-medium text-4xl mt-[50px] text-slate-800'>
-            Succinct Non-interactive Arguments of Knowledge</h1>
-            <p className='text-xl mt-[40px] font-medium'>Efficient zero-knowledge proofs that confirm computation accuracy without revealing the underlying data.</p>
+            <h1 className='font-semibold text-4xl h-[70px] mt-[55px] ml-[70px] p-[5px] border border-transparent rounded-xl 
+            bg-gradient-to-l
+            from-blue-600
+            via-blue-700
+            to-blue-800
+                text-transparent
+                bg-clip-text   
+                hover:scale-110 transition-all duration-500 ease-in-out'>
+               <span className='shadow-md shadow-blue-300 '>  Advanced Tools for ZKPSM Development</span></h1>
+            <p className='text-xl mt-[20px] font-medium'>Simplify Integration of Privacy-Preserving Features with Our Developer-Friendly SDKs and Libraries</p>
           </div>
 
 
           <div className='flex flex-row mt-[140px] mb-[40px]'>
             <div className='ml-[15px]'>
-              <h1 className='text-3xl font-semibold text-slate-800 font-bold'>Deterministic State Transitions
+              <h1 className='text-3xl font-bold text-slate-800 font-bold'>Deterministic State Transitions
               </h1>
               <p className='text-xl  mt-[30px] font-semibold'>Ensures predictable and consistent system behavior with strict, deterministic definitions of state changes.</p>
               <button className='mt-[20px] bg-blue-600 text-white border rounded-xl px-[15px] py-[15px] font-semibold text-xl'>

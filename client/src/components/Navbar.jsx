@@ -2,7 +2,6 @@ import React from 'react';
 import { ConnectButton } from '@rainbow-me/rainbowkit';
 
 function Navbar() {
-
   return (
     <navbar>
       <div className='flex flex-row justify-between '>
